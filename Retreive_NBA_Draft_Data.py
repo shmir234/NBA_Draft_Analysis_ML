@@ -52,7 +52,7 @@ def scrape_draft_data(years=[2017,2018]):
 #Checking the final result
     final_df
 #Exporting data to a csv file
-    final_df.to_csv("nba_draft_data_5.csv", index=False)
+    final_df.to_csv("nba_draft_data.csv", index=False)
 
 ###Calling function with the draft years I want data from
 scrape_draft_data(years=[2000,2001,2002,2003,2004,2005,2006,2007,
