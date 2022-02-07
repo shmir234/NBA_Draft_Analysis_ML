@@ -1,4 +1,4 @@
-# needed libraries
+## needed libraries
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -80,5 +80,5 @@ def scrape_college_statistics(links=[]):
     df.to_csv('College_Statistics.csv')
 
         ####
-### Calling the function          
+### Calling the function
 scrape_college_statistics(links=player_links)
